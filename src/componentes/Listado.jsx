@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const Listado = ({ data, setData, dataFilter, setDataFilter }) => {
+const Listado = ({dataFilter, setDataFilter }) => {
 
     const [ordeDesc, setOrdenDesc] = useState('');
 
