@@ -37,8 +37,8 @@ function App() {
       </div>
       <Buscador data={data} datafilter={setDataFilter} />
       <Listado
-        data={data}
-      
+        
+        dataFilter={dataFilter}
         setDataFilter={setDataFilter} />
       <div className="container" style={{ color: "#bbe1fa" }}>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
